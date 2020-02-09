@@ -10,6 +10,7 @@ function addElement () {
   // add the text node to the newly created div
   newDiv.appendChild(newContent);
 newDiv.style.color = color;
+newDiv.style.backgroundcolor = color;
 
   // add the newly created element and its content into the DOM
   var currentDiv = document.getElementById("div1");
